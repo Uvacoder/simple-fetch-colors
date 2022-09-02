@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#container-colors {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.each-color {
+    height: 10%;
+    width: 10%;
+}
+
+
+/* 
+    Create a variable to store the count of 
+    colors to be loaded
+    
+    Update the getColors() function to tak
+    e that count as a parameter
+    
+    Set the count to 100 colors, update 
+    the .my-color class to maintain the grid structure
+*/
